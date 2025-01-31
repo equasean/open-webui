@@ -1,1 +1,7 @@
-
+pipelines:
+  client-chat:
+    steps:
+      - type: http
+        url: "https://knwna-n8n.up.railway.app/webhook-test/6b0450ac-b313-4e12-b3cc-c6458b69a165"
+        headers:
+          Authorization: "Bearer YOUR_N8N_API_KEY"
